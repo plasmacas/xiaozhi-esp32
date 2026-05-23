@@ -557,6 +557,9 @@ choice BOARD_TYPE
     config BOARD_TYPE_AI_VOX3
         bool "NULLLAB-AI-VOX3"
         depends on IDF_TARGET_ESP32S3
+    config BOARD_TYPE_MA_XIN_WIFI
+    bool "ma-xin-wifi"
+    depends on IDF_TARGET_ESP32S3
 endchoice
 
 choice
